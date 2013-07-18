@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.T72Factory.turret;
+package wontonst.tankfactory.t72factory.turret;
 
-import wontonst.tankfactory.T72Factory.generic.T72Part;
+import wontonst.tankfactory.t72factory.generic.T72Part;
 import wontonst.tankfactory.generic.TankPart;
 import wontonst.tankfactory.generic.TankPartType;
 

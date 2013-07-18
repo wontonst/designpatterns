@@ -10,14 +10,18 @@ import wontonst.tankfactory.tankparts.generic.Tank;
 import wontonst.tankfactory.tankparts.turret.Turret;
 
 /**
+ * Builder for creating a tank. Design goals:
+ * <ul><li>tanks creation is independent of the creation of the parts that make
+ * the tank</li>
+ * <li>construction process allows for using different parts on same tank</li>
  *
  * @author rzheng
  */
 public class TankBuilder {
-    
-    public static Tank buildTank(TankFactory f){
+
+    public static Tank buildTank(TankFactory f) {
         Turret turret = f.buildTurret();
-        Chassis chassis  =f.buildChassis();
+        Chassis chassis = f.buildChassis();
         return f.buildTank(turret, chassis);
     }
 }

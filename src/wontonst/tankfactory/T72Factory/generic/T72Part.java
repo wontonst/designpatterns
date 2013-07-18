@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.T72Factory.generic;
+package wontonst.tankfactory.t72factory.generic;
 
 import wontonst.tankfactory.generic.TankPart;
 import wontonst.tankfactory.generic.TankPartType;

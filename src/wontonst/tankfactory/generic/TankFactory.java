@@ -12,12 +12,14 @@ import wontonst.tankfactory.tankparts.generic.Tank;
 import wontonst.tankfactory.tankparts.turret.Turret;
 
 /**
- * Abstract factory for creating TankPart objects. Design goals: - top-level
- * tank factory system is independent of specialized tank manufacturing
- * techniques - unified top-level system for configuration of tanks - future
- * repair system should be able to manipulate any tank through single interface
- * - a tank is a tank is a tank. internal tank construction details should
- * remain secret
+ * Abstract factory for creating TankPart objects. Design goals:
+ * <ul><li>top-level tank factory system is independent of specialized tank
+ * manufacturing techniques</li>
+ * <li>unified top-level system for configuration of tanks</li>
+ * <li>future repair system should be able to manipulate any tank through single
+ * interface</li>
+ * <li>a tank is a tank is a tank. internal tank construction details
+ * should remain hidden</li>
  *
  * @author wontonst
  */

@@ -4,17 +4,16 @@
  */
 package wontonst.tankfactory.t72factory.turret;
 
-import wontonst.tankfactory.t72factory.generic.T72Part;
-import wontonst.tankfactory.generic.TankPart;
-import wontonst.tankfactory.generic.TankPartType;
+import wontonst.tankfactory.t72factory.global.Constants;
+import wontonst.tankfactory.tankparts.generic.Turret;
 
 /**
  *
  * @author rzheng
  */
-public class T72Turret extends T72Part {
+public class T72Turret extends Turret {
 
     public T72Turret() {
-        super(TankPartType.TURRET);
+        super(Constants.TANK_NAME);
     }
 }

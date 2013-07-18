@@ -4,16 +4,16 @@
  */
 package wontonst.tankfactory.t72factory.chassis;
 
-import wontonst.tankfactory.t72factory.generic.T72Part;
-import wontonst.tankfactory.generic.TankPartType;
+import wontonst.tankfactory.t72factory.global.Constants;
+import wontonst.tankfactory.tankparts.generic.Chassis;
 
 /**
  *
  * @author rzheng
  */
-public class T72Chassis extends T72Part{
+public class T72Chassis extends Chassis{
     
     public T72Chassis(){
-        super(TankPartType.CHASSIS);
+        super(Constants.TANK_NAME);
     }
 }

@@ -10,5 +10,7 @@ package wontonst.tankfactory.generic;
  */
 public enum TankPartType {
     TURRET,
-    CHASSIS
+    CHASSIS,
+    TANK,//actual tank
+    ENGINE
 }

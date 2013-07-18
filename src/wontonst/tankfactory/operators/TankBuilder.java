@@ -7,7 +7,7 @@ package wontonst.tankfactory.operators;
 import wontonst.tankfactory.generic.TankFactory;
 import wontonst.tankfactory.tankparts.generic.Chassis;
 import wontonst.tankfactory.tankparts.generic.Tank;
-import wontonst.tankfactory.tankparts.turret.Turret;
+import wontonst.tankfactory.tankparts.generic.Turret;
 
 /**
  * Builder for creating a tank. Design goals:

@@ -9,7 +9,7 @@ import wontonst.tankfactory.assemblers.TurretAssembler;
 import wontonst.tankfactory.tankparts.generic.Chassis;
 import wontonst.tankfactory.tankparts.generic.Engine;
 import wontonst.tankfactory.tankparts.generic.Tank;
-import wontonst.tankfactory.tankparts.turret.Turret;
+import wontonst.tankfactory.tankparts.generic.Turret;
 
 /**
  * Abstract factory for creating TankPart objects. Design goals:

@@ -13,9 +13,10 @@ import java.util.List;
  */
 public class TankPart {
 
-    List<TankPart> subassembly = new LinkedList<TankPart>();
-    String model_name;
-    TankPartType type;
+    protected List<TankPart> subassembly = new LinkedList<>();///<list of sub-components
+    protected String description;///< custom description of part
+    protected String model_name;///< manufacturer or tank model name associated with this part
+    protected TankPartType type;
 
     protected TankPart(String n, TankPartType t) {
         this.model_name = n;
@@ -23,15 +24,21 @@ public class TankPart {
     }
 
     public String getConfiguration() {
-        String treturn = this.model_name + "\n";
+        String treturn = this.model_name + " " + this.type.toString();
 
         for (TankPart t : this.subassembly) {
-            treturn += "\n\t" + t.getName();
+            treturn += "\n\t" + t.getModelName()+ " " + t.type.toString();
         }
         return treturn;
     }
 
-    public String getName() {
+    public String getModelName() {
         return this.model_name;
+    }
+    public TankPartType getType(){
+        return this.type;
+    }
+    protected void addPart(TankPart p){
+        this.subassembly.add(p);
     }
 }

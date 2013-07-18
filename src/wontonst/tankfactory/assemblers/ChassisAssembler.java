@@ -2,15 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.tankparts.generic;
-
-import wontonst.tankfactory.generic.TankPart;
+package wontonst.tankfactory.assemblers;
 
 /**
  *
  * @author rzheng
  */
-public class Tank{
-
-   
+public class ChassisAssembler {
+    
 }

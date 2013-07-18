@@ -2,15 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.tankparts.generic;
-
-import wontonst.tankfactory.generic.TankPart;
+package wontonst.tankfactory.generic;
 
 /**
  *
  * @author rzheng
  */
-public class Tank{
-
-   
+public enum TankPartType {
+    TURRET,
+    CHASSIS
 }

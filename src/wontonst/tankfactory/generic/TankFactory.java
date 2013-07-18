@@ -4,6 +4,8 @@
  */
 package wontonst.tankfactory.generic;
 
+import wontonst.tankfactory.assemblers.ChassisAssembler;
+import wontonst.tankfactory.assemblers.TurretAssembler;
 import wontonst.tankfactory.tankparts.generic.Chassis;
 import wontonst.tankfactory.tankparts.generic.Engine;
 import wontonst.tankfactory.tankparts.generic.Tank;
@@ -29,9 +31,9 @@ public abstract class TankFactory {
         this.turret_assembler = ta;
     }
 
-    public Turret buildTurret();
+    public abstract Turret buildTurret();
 
-    public Chassis buildChassis(Engine e);
+    public abstract Chassis buildChassis();
 
-    public Tank buildTank(Turret t, Chassis c);
+    public abstract Tank buildTank(Turret t, Chassis c);
 }

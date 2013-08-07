@@ -4,17 +4,14 @@
  */
 package wontonst.tankfactory.generic;
 
-import java.util.LinkedList;
-import java.util.List;
+import wontonst.generic.Part;
 
 /**
  *
  * @author rzheng
  */
-public class TankPart {
+public class TankPart extends Part {
 
-    protected List<TankPart> subassembly = new LinkedList<>();///<list of sub-components
-    protected String description;///< custom description of part
     protected String model_name;///< manufacturer or tank model name associated with this part
     protected TankPartType type;
 
@@ -23,22 +20,13 @@ public class TankPart {
         this.type = t;
     }
 
-    public String getConfiguration() {
-        String treturn = this.model_name + " " + this.type.toString();
-
-        for (TankPart t : this.subassembly) {
-            treturn += "\n\t" + t.getModelName()+ " " + t.type.toString();
-        }
-        return treturn;
-    }
-
     public String getModelName() {
         return this.model_name;
     }
     public TankPartType getType(){
         return this.type;
     }
-    protected void addPart(TankPart p){
-        this.subassembly.add(p);
+    public String toString(){
+        return this.model_name + " " + this.type.toString();
     }
 }

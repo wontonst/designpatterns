@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author rzheng
  */
-public class Part {
+public abstract class Part {
 
     protected List<Part> subassembly = new LinkedList<>();///<list of sub-components
     protected String description;///< custom description of part

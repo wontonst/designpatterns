@@ -11,17 +11,18 @@ import wontonst.shells.sabot.Sabot;
  *
  * @author rzheng
  */
-public class DiscardingSabotArmorPiercingShell extends Shell{
-    
+public class DiscardingSabotArmorPiercingShell extends Shell {
+
     Sabot sabot;
-    
-    public DiscardingSabotArmorPiercingShell(double c, Sabot s){
+
+    public DiscardingSabotArmorPiercingShell(double c, Sabot s) {
         super(c);
         this.sabot = s;
+        this.subassembly.add(s);
     }
 
     @Override
     public String getType() {
-return "Discarding-sabot Armor-Piercing";
+        return "Discarding-sabot Armor-Piercing";
     }
 }

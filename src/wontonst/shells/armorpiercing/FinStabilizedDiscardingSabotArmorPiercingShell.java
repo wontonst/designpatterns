@@ -4,16 +4,21 @@
  */
 package wontonst.shells.armorpiercing;
 
-import wontonst.shells.generic.Shell;
+import wontonst.shells.fin.Fin;
+import wontonst.shells.sabot.Sabot;
 
 /**
  *
  * @author rzheng
  */
-public class FinStabilizedDiscardingSabotArmorPiercingShell extends Shell {
+public class FinStabilizedDiscardingSabotArmorPiercingShell extends DiscardingSabotArmorPiercingShell {
 
-    public FinStabilizedDiscardingSabotArmorPiercingShell(double c) {
-        super(c);
+    Fin fin;
+
+    public FinStabilizedDiscardingSabotArmorPiercingShell(double c, Sabot s, Fin f) {
+        super(c, s);
+        this.fin = f;
+        this.subassembly.add(this.fin);
     }
 
     @Override

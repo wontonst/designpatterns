@@ -11,11 +11,11 @@ import wontonst.shells.sabot.Sabot;
  *
  * @author rzheng
  */
-public class FinStabilizedDiscardingSabotArmorPiercingShell extends DiscardingSabotArmorPiercingShell {
+public class ArmorPiercingDiscardingSabotFinStabilizedShell extends ArmorPiercingDiscardingSabotShell {
 
     Fin fin;
 
-    public FinStabilizedDiscardingSabotArmorPiercingShell(double c, Sabot s, Fin f) {
+    public ArmorPiercingDiscardingSabotFinStabilizedShell(double c, Sabot s, Fin f) {
         super(c, s);
         this.fin = f;
         this.subassembly.add(this.fin);

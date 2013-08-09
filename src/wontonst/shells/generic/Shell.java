@@ -17,5 +17,4 @@ public abstract class Shell extends Part implements ShellInterface{
     public Shell(double cb) {
         this.calibre = cb;
     }
-
 }

@@ -10,8 +10,13 @@ import wontonst.generic.Part;
  *
  * @author rzheng
  */
-public abstract class Fin extends Part implements FinInterface {
+public class Fin extends Part implements FinInterface {
 
     public Fin() {
+    }
+
+    @Override
+    public String getType() {
+        return "Fin";
     }
 }

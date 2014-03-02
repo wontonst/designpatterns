@@ -4,12 +4,12 @@
  */
 package wontonst.tankfactory.generic;
 
-import wontonst.tankfactory.assemblers.ChassisAssembler;
-import wontonst.tankfactory.assemblers.TurretAssembler;
-import wontonst.tankfactory.tankparts.generic.Chassis;
-import wontonst.tankfactory.tankparts.generic.Engine;
-import wontonst.tankfactory.tankparts.generic.Tank;
-import wontonst.tankfactory.tankparts.generic.Turret;
+import wontonst.tankfactory.generic.assemblers.ChassisAssembler;
+import wontonst.tankfactory.generic.assemblers.TurretAssembler;
+import wontonst.tank.generic.generic.Chassis;
+import wontonst.tank.generic.generic.Engine;
+import wontonst.tank.generic.generic.Tank;
+import wontonst.tank.generic.generic.Turret;
 
 /**
  * Abstract factory for creating TankPart objects. 

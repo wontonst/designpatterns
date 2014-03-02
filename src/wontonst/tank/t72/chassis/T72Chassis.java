@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.t72factory.chassis;
+package wontonst.tank.t72.chassis;
 
 import wontonst.tankfactory.t72factory.global.Constants;
-import wontonst.tankfactory.tankparts.generic.Chassis;
+import wontonst.tank.generic.generic.Chassis;
 
 /**
  *

@@ -2,15 +2,15 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.t72factory.generic;
+package wontonst.tank.t72.generic;
 
 import wontonst.tankfactory.generic.TankFactory;
-import wontonst.tankfactory.t72factory.chassis.T72Chassis;
-import wontonst.tankfactory.t72factory.tank.T72Tank;
-import wontonst.tankfactory.t72factory.turret.T72Turret;
-import wontonst.tankfactory.tankparts.generic.Chassis;
-import wontonst.tankfactory.tankparts.generic.Tank;
-import wontonst.tankfactory.tankparts.generic.Turret;
+import wontonst.tank.t72.chassis.T72Chassis;
+import wontonst.tank.t72.tank.T72Tank;
+import wontonst.tank.t72.turret.T72Turret;
+import wontonst.tank.generic.generic.Chassis;
+import wontonst.tank.generic.generic.Tank;
+import wontonst.tank.generic.generic.Turret;
 
 /**
  *

@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.operators;
+package wontonst.tankfactory.generic.operators;
 
 import wontonst.tankfactory.generic.TankFactory;
-import wontonst.tankfactory.tankparts.generic.Chassis;
-import wontonst.tankfactory.tankparts.generic.Tank;
-import wontonst.tankfactory.tankparts.generic.Turret;
+import wontonst.tank.generic.generic.Chassis;
+import wontonst.tank.generic.generic.Tank;
+import wontonst.tank.generic.generic.Turret;
 
 /**
  * Builder for creating a tank. Design goals:

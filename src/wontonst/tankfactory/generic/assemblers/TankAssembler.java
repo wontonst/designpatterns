@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wontonst.tankfactory.generic;
+package wontonst.tankfactory.generic.assemblers;
 
 import wontonst.tankfactory.generic.assemblers.ChassisAssembler;
 import wontonst.tankfactory.generic.assemblers.TurretAssembler;
@@ -16,12 +16,12 @@ import wontonst.tank.generic.generic.Turret;
  *
  * @author wontonst
  */
-public abstract class TankFactory {
+public abstract class TankAssembler {
 
     protected TurretAssembler turret_assembler;
     protected ChassisAssembler chassis_assembler;
 
-    protected TankFactory(TurretAssembler ta, ChassisAssembler ca) {
+    protected TankAssembler(TurretAssembler ta, ChassisAssembler ca) {
         this.chassis_assembler = ca;
         this.turret_assembler = ta;
     }

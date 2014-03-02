@@ -4,7 +4,7 @@
  */
 package wontonst.tank.t72.generic;
 
-import wontonst.tankfactory.generic.TankFactory;
+import wontonst.tankfactory.generic.assemblers.TankAssembler;
 import wontonst.tank.t72.chassis.T72Chassis;
 import wontonst.tank.t72.tank.T72Tank;
 import wontonst.tank.t72.turret.T72Turret;
@@ -16,7 +16,7 @@ import wontonst.tank.generic.generic.Turret;
  *
  * @author rzheng
  */
-public class T72TankFactory extends TankFactory {
+public class T72TankFactory extends TankAssembler {
 
     public T72TankFactory() {
         super(null, null);

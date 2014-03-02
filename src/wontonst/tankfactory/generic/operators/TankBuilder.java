@@ -4,7 +4,7 @@
  */
 package wontonst.tankfactory.generic.operators;
 
-import wontonst.tankfactory.generic.TankFactory;
+import wontonst.tankfactory.generic.assemblers.TankAssembler;
 import wontonst.tank.generic.generic.Chassis;
 import wontonst.tank.generic.generic.Tank;
 import wontonst.tank.generic.generic.Turret;
@@ -19,7 +19,7 @@ import wontonst.tank.generic.generic.Turret;
  */
 public class TankBuilder {
 
-    public static Tank buildTank(TankFactory f) {
+    public static Tank buildTank(TankAssembler f) {
         Turret turret = f.buildTurret();
         Chassis chassis = f.buildChassis();
         return f.buildTank(turret, chassis);
